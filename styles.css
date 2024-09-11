@@ -1,4 +1,20 @@
-h1 {
-    font: bold;
-    color: rgb(228, 120, 120);
+* {
+  text-decoration: none;
+}
+
+nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  background-color: white;
+
+}
+
+.header {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  background-color: aquamarine;
 }
